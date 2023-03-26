@@ -1,4 +1,4 @@
-# catalog
+# Catalog App
 
 A new Flutter project.
 
