@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -8,14 +7,12 @@ class HomePage extends StatelessWidget {
     return MaterialApp(
         home: Scaffold(
           appBar: AppBar(
-            title:Text("Catalog App"),
+            title:const Text("Catalog App"),
           ),
-          body: Center(
-            child: Container(
-              child: Text("Welcome to Catalog App"),
-            ),
+          body: const Center(
+            child: Text("Welcome to Catalog App"),
           ),
-          drawer: Drawer(),
+          drawer: const Drawer(),
         )
     );
   }
